@@ -11,6 +11,9 @@ def computepay(h, r):
 
     print   'The payment is: '
     print   pay
+    # The pass statement does nothing
+    # it is only required when some action is necessary
+    # for example in an empty function, here it could be removed
     pass
 
 # Get the input from the user
