@@ -30,3 +30,7 @@ print 'monty[:5]', monty[:5]
 print 'monty[6:]', monty[6:]
 # The whole string
 print 'monty[:]', monty[:]
+
+# Unsing .find()
+found = monty.find('ty')
+print found
