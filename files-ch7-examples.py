@@ -25,6 +25,5 @@ fhand = open('teste.txt')
 # Just print the lines that start with # - It's a simple search
 for line in fhand:
     line = line.rstrip()
-
     if line.startswith('#'):
         print line
