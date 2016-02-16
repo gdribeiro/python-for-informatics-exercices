@@ -18,6 +18,7 @@
 # {'Fri': 20, 'Thu': 6, 'Sat': 1}
 
 fname = raw_input('Enter the file name: ')
+if len(fname) < 1 : fname = "mbox-short.txt"
 
 try:
     fhand = open(fname, 'r')

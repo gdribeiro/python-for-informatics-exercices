@@ -20,11 +20,11 @@ for line in fhand:
 sender = None
 count = None
 
+# dic.items() returns a tupple that can be iterated through the key value pairs
 for key,value in dic.items():
     if count is None or value > count:
         sender = key
         count = value
-
 
 print 'All the domain names: ', dic
 
