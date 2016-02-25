@@ -1,5 +1,8 @@
 #!/bin/python
 
+# This program gets the letter frequency in a file and prints a list with the letter
+# in the order of most common to least common.
+
 import string
 
 name = raw_input("Enter file:")
