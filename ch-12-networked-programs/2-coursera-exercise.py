@@ -8,8 +8,9 @@
 import urllib
 from BeautifulSoup import *
 
+
 url = raw_input('Enter the url: ')
-if len(url) < 1: url = "http://python-data.dr-chuck.net/comments_230559.html"
+if len(url) < 1: url = "http://python-data.dr-chuck.net/comments_42.html"
 
 html = urllib.urlopen(url).read()
 
